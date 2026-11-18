@@ -9,6 +9,22 @@
 | [`pelican-riding.html`](./pelican-riding.html) | 原生 SVG + CSS 动画 + JavaScript | 2D 海岸线横版小游戏 |
 | [`pelican-threejs.html`](./pelican-threejs.html) | Three.js r128 + OrbitControls | 3D 乡间公路骑行场景 |
 
+**English Overview**
+
+A pelican wearing a helmet and a red scarf rides a bicycle. This repository contains two standalone web pieces expressing the same theme: a 2D side-scrolling mini-game built with native SVG and CSS animation, and a 3D countryside cycling scene built with Three.js. Both are single HTML files — no build step, no dependencies, just open them in a browser. The 2D version works fully offline, while the 3D version loads Three.js and OrbitControls from a CDN.
+
+## 技术栈 · Tech Stack
+
+| 版本 Version | 技术 Technology | 用途 Purpose |
+| --- | --- | --- |
+| 2D | HTML5 + 原生 SVG | 角色与场景绘制 Graphics |
+| 2D | CSS 动画 / JavaScript | 动画与游戏逻辑 Animation & logic |
+| 2D | Web Audio API | 实时合成音效 Synthesized sound |
+| 2D | localStorage | 最高分持久化 High-score persistence |
+| 3D | Three.js r128 + OrbitControls | 3D 场景与相机控制 3D scene & camera |
+| 3D | WebGL / 阴影 / 雾效 | 渲染效果 Rendering effects |
+| 共用 Shared | GitHub Pages / 静态托管 | 在线部署 Hosting |
+
 ---
 
 ## 一、2D 版：`pelican-riding.html`
